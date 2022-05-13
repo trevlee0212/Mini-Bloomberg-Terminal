@@ -1,24 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { useState } from 'react';
+import Terminal from './terminal.js';
+import io from "socket.io-client";
+import LoginPage from './loginPage.js';
+import {useAuth0} from "@auth0/auth0-react";
 
+
+
+
+
+
+const socket = io.connect("http://localhost:3001");
 function App() {
+  const {user, isAuthenticated, isLoading} = useAuth0();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    isAuthenticated ? (<div><Terminal/></div>): <LoginPage/>
   );
 }
 
