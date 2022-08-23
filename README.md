@@ -1,6 +1,3 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 # Landing Page 
 ![Screen Shot 2022-07-05 at 1 11 51 AM](https://user-images.githubusercontent.com/73781823/186263559-a9c65a36-3e1c-427f-8cc2-48653855bf5f.png)
 
