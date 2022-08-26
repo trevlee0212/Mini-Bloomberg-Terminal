@@ -7,6 +7,8 @@
 # Terminal Functions Example
 ![Screen Shot 2022-07-05 at 1 13 41 AM](https://user-images.githubusercontent.com/73781823/186263734-6de234c6-7cbc-4147-a632-6ccc05465655.png)
 
+![Screen Shot 2022-07-05 at 1 14 14 AM](https://user-images.githubusercontent.com/73781823/186799614-301006d7-77de-4749-b764-f60b6107632a.png)
+
 ![Screen Shot 2022-07-05 at 1 25 17 AM](https://user-images.githubusercontent.com/73781823/186263808-32ce6b16-0e2d-4aa4-ac15-3296244f349e.png)
 
 ## Available Scripts
